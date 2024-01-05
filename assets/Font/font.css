@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "IRANSansXV";
+    src: url("IRANSansXV.woff");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "IRANSansXV";
+    src: url("IRANSansXV.woff2");
+    font-display: fallback;
+}
+
+.sans-bold {
+    font-family: IRANSansXV;
+    font-weight: 700;
+    font-variation-settings: "whgt" 700,
+        "rdot" 1;
+    -moz-font-feature-settings: "ss02";
+    -webkit-font-feature-settings: "ss02";
+    font-feature-settings: "ss02";
+}
+.sans-bolder {
+    font-family: IRANSansXV;
+    font-weight: 900;
+    font-variation-settings: "wght" 900,
+        "rdot" 1;
+    -moz-font-feature-settings: "ss02";
+    -webkit-font-feature-settings: "ss02";
+    font-feature-settings: "ss02";
+}
+
+.sans {
+    font-family: IRANSansXV;
+    font-weight: 400;
+    font-variation-settings: "wght" 400,
+        "rdot" 1;
+    -moz-font-feature-settings: "ss02";
+    -webkit-font-feature-settings: "ss02";
+    font-feature-settings: "ss02";
+}
+
+.sans-i {
+    font-family: IRANSansXV;
+    font-weight: 100;
+    font-variation-settings: "wght" 100,
+        "rdot" 1 -moz-font-feature-settings: "ss02";
+    -webkit-font-feature-settings: "ss02";
+    font-feature-settings: "ss02";
+}
